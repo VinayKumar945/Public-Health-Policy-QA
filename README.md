@@ -1,19 +1,16 @@
 ---
-title: Rag Health Qa
-emoji: 🚀
-colorFrom: red
-colorTo: red
-sdk: docker
-app_port: 8501
-tags:
-- streamlit
+title: RAG Health QA
+emoji: 🏥
+colorFrom: green
+colorTo: teal
+sdk: streamlit
+sdk_version: 1.38.0
+app_file: app.py
 pinned: false
-short_description: Streamlit template space
 ---
 
-# Welcome to Streamlit!
+# 🏥 Public Health Policy RAG QA System
 
-Edit `/src/streamlit_app.py` to customize this app to your heart's desire. :heart:
+Question answering on WHO public health policy documents using Retrieval-Augmented Generation.
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
+Built with LangChain · FAISS · Zephyr-7B · RAGAS · Streamlit

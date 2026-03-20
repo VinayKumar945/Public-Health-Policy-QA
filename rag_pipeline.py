@@ -5,7 +5,6 @@
 #   python rag_pipeline.py
 
 import os
-from urllib import response
 from dotenv import load_dotenv
 
 from langchain_community.vectorstores import FAISS

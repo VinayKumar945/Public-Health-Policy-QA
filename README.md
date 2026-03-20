@@ -2,7 +2,7 @@
 title: RAG Health QA
 emoji: 🏥
 colorFrom: green
-colorTo: teal
+colorTo: green
 sdk: streamlit
 sdk_version: 1.38.0
 app_file: app.py
